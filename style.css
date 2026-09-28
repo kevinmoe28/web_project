@@ -1,0 +1,274 @@
+* {margin:0px;}
+.nav {width:100%;
+	text-align:right;
+	background:rgb(230,0,32);
+	position:fixed;
+	z-index:100;}
+.nav .logo {font-family:"Lucida Handwriting";
+	font-size:30px;
+	color:cyan;
+	float:left;}
+.nav ul li {list-style:none;
+	display:inline-flex;
+	font-family:"Trebuchet MS"}
+.nav ul li a:hover {background:red;}
+.nav ul li a {text-decoration:none;
+	padding:15px;
+	color:white;}
+.nav ul .dropdown .dmenu {text-align:center;
+	position:absolute;
+	top:40px;
+	background:rgb(230,0,32);
+	display:none;}
+.nav ul .dropdown:hover .dmenu {display:block;}
+.nav ul .dropdown .dmenu a {display:block;}
+.nav ul .dropdown .dmenu a:hover {background:red;}
+marquee {background:rgb(192,0,192);
+	font-family:"Trebuchet MS";
+	font-size:18px;
+	color:white;
+	margin-top:49px;
+	z-index:1;}
+.main {width:100%;
+	margin-top:-5px;}
+div .format {background:rgba(0,0,0,0.5);
+	width:100%;
+	height:100%;}
+.main .welcome {background-image:url("Images/City.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100%;
+	background-position:center;
+	font-family:"Century Gothic";
+	font-size:20px;
+	color:white;
+	height:600px;}
+.main .welcome2 {background-image:url("Images/Worker.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100%;
+	background-position:center;
+	font-family:"Century Gothic";
+	font-size:20px;
+	color:white;
+	height:600px;}
+.main .welcome3 {background-image:url("Images/People.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100%;
+	background-position:center;
+	font-family:"Century Gothic";
+	font-size:20px;
+	color:white;
+	height:600px;}
+.main .welcome4 {background-image:url("Images/Office.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100%;
+	background-position:center;
+	font-family:"Century Gothic";
+	font-size:20px;
+	color:white;
+	height:600px;}
+.main .welcome5 {background-image:url("Images/Programs.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100%;
+	background-position:center;
+	font-family:"Century Gothic";
+	font-size:20px;
+	color:white;
+	height:600px;}
+.main h1 {font-family:"Century Gothic";
+	font-size:72px;
+	padding:35px;
+	padding-bottom:0px;}
+.main h2 {font-family:"Century Gothic";
+	font-size:55px;
+	padding:35px;
+	padding-bottom:0px;}
+.main .welcome h1, .main .welcome2 h1, .main .welcome3 h1, .main .welcome4 h1, .main .welcome5 h1 {padding-top:150px;}
+.main p {padding:35px;}
+.main .link {text-align:center;
+	padding-top:22px;}
+.main a {font-family:"Trebuchet MS";
+	font-size:25px;
+	text-decoration:none;
+	color:white;
+	background:blue;
+	border-radius:25px;
+	padding:10px;
+	text-align:center;}
+.main a:hover {background:magenta;
+	box-shadow:0px 0px 5px 3px magenta;}
+.main .welcome img {width:350px;
+	float:right;
+	padding-top:200px;
+	padding-right:35px;}
+.main .about {background:white;
+	color:black;
+	font-family:"Century Gothic";
+	font-size:20px;}
+.main .about .mprinc {width:100%;
+	justify-content:center;
+	display:inline-flex;
+	gap:15px;}
+.main .about .mprinc2 {margin-top:35px;
+	width:100%;
+	justify-content:center;
+	display:inline-flex;
+	gap:15px;}
+.main h3 {font-size:30px;
+	padding:25px;
+	padding-bottom:0px;}
+.main .about .princ {border:5px solid blue;
+	border-radius:10px;
+	color:blue;
+	background:white;
+	width:390px;
+	display:flex;
+	flex-direction:column;}
+.main .about .princ:hover {border-color:red;
+	color:red;
+	box-shadow:0px 0px 5px 5px red;}
+.main .about i {font-size:60px;
+	padding:35px;
+	padding-left:165px;
+	padding-right:165px;}
+.main .about .princ .type {font-size:16px;
+	color:gray;
+	padding-top:0px;
+	padding-bottom:0px;}
+.main .about .princ img {width:100%;
+	border-bottom:5px solid blue;}
+.main .about .princ img:hover {border-color:red;
+	box-shadow:0px 0px 5px 5px red;}
+.main .about .princ h3 {margin-top:auto;}
+.main .about .princ a {margin-top:auto;
+	justify-content:center;
+	font-family:"Trebuchet MS";
+	font-size:25px;
+	text-decoration:none;
+	color:white;
+	background:blue;
+	border:5px solid blue;
+	border-radius:25px 25px 5px 5px;
+	padding:10px;}
+.main .about .princ a:hover {background:red;
+	border-color:red;
+	box-shadow:0px 0px 5px 3px red;}
+.main .about .princ2 {padding:35px;}
+.main .about .princ2 input {font-family:"Century Gothic";
+	width:100%;
+	border:5px solid blue;
+	border-radius:5px;
+	height:25px;}
+.main .about .princ2 input:hover {border-color:red;
+	box-shadow:0px 0px 5px 3px red;}
+.main .about .princ2 #check1, .main .about .princ2 #check2 {height:25px;
+	color:red;
+	text-align:center;}
+.main .about .princ3 {padding:35px;
+	justify-content:center;
+	display:flex;
+	gap:15px;}
+.main .about .princ3 img {width:35%;
+	border:5px solid blue;
+	border-radius:5px;}
+.main .about .princ3 img:hover {border-color:red;
+	box-shadow:0px 0px 5px 5px red;}
+.main .about .princ3 table {border-collapse:collapse;
+	border:5px solid blue;
+	border-radius:5px;}
+.main .about .princ3 table td {border:5px solid blue;
+	padding:5px;
+	text-align:center;
+	vertical-align:middle;}
+.main .about .shop {display:flex;
+	justify-content:center;
+	margin-bottom:10px;}
+.main .about .shop form select {font-family:"Century Gothic";
+	font-size:20px;
+	text-align:center;
+	padding:10px;
+	border:5px solid blue;
+	border-radius:25px;}
+.main .about .shop form select:hover {border-color:red;
+	box-shadow:0px 0px 5px 5px red;}
+.main .about .shop button {font-family:"Century Gothic";
+	font-size:25px;
+	color:white;
+	padding:10px;
+	border:5px solid blue;
+	border-radius:25px;
+	background:blue;
+	width:20%;
+	justify-content:center;}
+.main .about .shop button:hover {background:red;
+	border-color:red;
+	box-shadow:0px 0px 5px 5px red;}
+.main .links {width:100%;
+	display:inline-flex;
+	justify-content:center;}
+.main .news {background-image:url("Images/Night.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100%;
+	background-position:center;
+	font-family:"Century Gothic";
+	font-size:20px;
+	color:white;
+	height:600px;}
+.main .news .section {width:90%;
+	border:5px solid blue;
+	border-radius:10px;
+	color:blue;
+	background:white;
+	padding:15px;
+	margin-top:35px;
+	margin-left:auto;
+	margin-right:auto;
+	display:flex;}
+.main .news .section:hover {border-color:red;
+	color:red;
+	box-shadow:0px 0px 5px 5px red;}
+.main .news .section img {width:35%;
+	border:5px solid blue;}
+.main .news2 {background:white;
+	color:black;
+	font-family:"Century Gothic";
+	font-size:20px;}
+.main .news2 .section {width:90%;
+	border:5px solid blue;
+	border-radius:10px;
+	color:blue;
+	background:white;
+	padding:15px;
+	margin-top:35px;
+	margin-left:auto;
+	margin-right:auto;
+	display:flex;
+	margin-bottom:35px;}
+.main .news2 .section:hover {border-color:red;
+	color:red;
+	box-shadow:0px 0px 5px 5px red;}
+.main .news2 .section img {width:35%;
+	border:5px solid blue;}
+.main .news2 .section .ctext p {padding-bottom:0px;}
+.main .news2 a {margin:10px;
+	text-align:center;}
+.footer {background:black;
+	font-family:"Trebuchet MS";
+	font-size:12px;
+	color:white;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;}
+.footer .flink {font-size:20px;
+	text-align:center;
+	padding:8px;}
+.footer .flink i {padding:12px;
+	border-radius:24px;}
+.footer .flink i:hover {background:white;
+	color:black;
+	box-shadow:0px 0px 5px 4px white;}
