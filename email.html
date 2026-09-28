@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Moes - Send us Feedback</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+	<script>
+		function validate1() {
+			var email=document.emailin.mail1;
+			var checker="";
+			if (!email.value.includes("@")) {
+				checker="The email address must contain an @.";
+			} else {
+				checker="";
+			}
+			document.getElementById("check1").innerText=checker;
+		}
+		function validate2() {
+			var email=document.emailin.mail2;
+			var checker="";
+			if (!email.value.includes("@")) {
+				checker="The email address must contain an @.";
+			} else {
+				checker="";
+			}
+			document.getElementById("check2").innerText=checker;
+		}
+	</script>
+</head>
+<body>
+	<div class="nav">
+		<div class="logo">The Moes<sup>&trade;</sup></div>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li class="dropdown"><a href="product.html">Products</a>
+				<div class="dmenu">
+					<a href="product_s.html">Smartphones</a>
+					<a href="product_l.html">Laptops</a>
+				</div>
+			</li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<li><a href="news.html">News</a></li>
+		</ul>
+	</div>
+	<marquee scrollamount="18px;">Welcome to The Moes Computer Sales</marquee>
+	<div class="main" name="main">
+		<div class="about" name="about">
+			<h1>Send us feedback</h1>
+			<div class="princ2" name="princ2">
+				<form name="emailin">
+					<label>Your email address</label><br>
+					<input type="email" name="mail1" onkeyup="validate1()"><br>
+					<div id="check1"></div>
+					<label>Receiver's email address</label><br>
+					<input type="email" name="mail2" onkeyup="validate2()"><br>
+					<div id="check2"></div>
+					<label>Your feedback</label><br>
+					<input type="text" name="text" style="height:150px;">
+				</form>
+			</div>
+			<div class="shop">
+				<button type="submit">Send</button>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="flink">
+			<i class="fa-brands fa-youtube"></i>
+			<i class="fa-brands fa-tiktok"></i>
+			<i class="fa-brands fa-facebook"></i>
+			<i class="fa-brands fa-x-twitter"></i>
+		</div>
+		<div class="ftext">Web page created by Phone Aung Set, Batch 5-26<br>&copy; All rights reserved.</div>
+	</div>
+</body>
+</html>
